@@ -1,0 +1,29 @@
+﻿<Window x:Class="WpfApp1.Practice"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Practice" Height="450" Width="800" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowState="Maximized" WindowStyle="ThreeDBorderWindow" BorderThickness="10">
+    <Window.Background>
+        <ImageBrush ImageSource="C:\Users\H280258\Desktop\Black_Orange.jpg"></ImageBrush>
+    </Window.Background>
+    <Grid>
+
+             <Label Content="Practice Mode" Foreground="OrangeRed" HorizontalAlignment="Center" HorizontalContentAlignment="Center" FontSize="40"  Margin="228,10,263,335" VerticalAlignment="Center" Height="76" Width="303"/>
+            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="100" Margin="353,359,0,0" VerticalAlignment="Top" Width="178" Background="Red">
+                <Button x:Name="Button_1" FontSize="20" Foreground="Black" Click="Classic_Click" Content="Classic" Background="OrangeRed"/>
+            </Border>
+            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="100" Margin="753,359,0,0" VerticalAlignment="Top" Width="178" Background="Red">
+                <Button x:Name="Arc_Rac" FontSize="20" Foreground="Black" Click="Arcade_Click" Content="Arcade" Background="OrangeRed" />
+            </Border>
+            <Button Click="Prac_Back" HorizontalAlignment="Left" Margin="43,125,364,333" VerticalAlignment="Top" Width="75" Height="75" Background="Transparent" BorderThickness="0">
+                <Image Source="C:\Users\H280258\Desktop\Orange Arrow.png" Width="75" Height="75"/>
+            </Button>
+        
+
+    </Grid>
+
+ 
+</Window>
